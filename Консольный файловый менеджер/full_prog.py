@@ -1,4 +1,7 @@
 import platform
+from functions import file_and_folder
+from functions import quiz
+from functions import bank
 while True:
     print('1. создать папку')
     print('2. удалить(файл/папку)')
@@ -11,25 +14,20 @@ while True:
     print('9. выход')
     nume = input('видете номер пункта: ')
     if nume == '1':
-        from functions import file_and_folder
         file_and_folder.new_older()
     elif nume == '2':
-        from functions import file_and_folder
         file_and_folder.delete_file_older()
     elif nume == '3':
-        from functions import file_and_folder
         file_and_folder.copy_older_file()
     elif nume == '4':
-        from functions import file_and_folder
         file_and_folder.list_older_files('папка')
     elif nume == '5':
-        from functions import file_and_folder
         file_and_folder.list_older_files('файл')
     elif nume == '6':
         print(platform.uname())
     elif nume == '7':
-        from functions import quiz
+        quiz.quiz()
     elif nume == '8':
-        from functions import bank
+        bank.bank()
     elif nume == '9':
         break
