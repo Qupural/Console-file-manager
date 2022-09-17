@@ -1,12 +1,3 @@
-import os
-dirs = []
-files = []
-files
-cvb = os.listdir()
-for i in cvb:
-    if '.py' in i:
-        files.append(i)
-    else:
-        dirs.append(i)
-print(files)
-print(dirs)
+num = [1,3,2,4,0]
+num2= list(filter(None,num))
+print((num2))
