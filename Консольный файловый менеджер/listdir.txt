@@ -1,0 +1,2 @@
+Files: ['.pytest_cache', 'balace.data', 'full_prog.py', 'history.data', 'listdir.txt']
+  Dirs: ['.idea', 'functions']
